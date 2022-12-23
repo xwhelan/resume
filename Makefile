@@ -1,5 +1,6 @@
 # Build a PDF resume from Markdown file using Pandoc
 # Includes platform specific preview and spellcheck
+# For local use: github actions uses pandoc action
 BUILDDIR = build
 MYNAME = peterwhelan
 OUTPUT = $(BUILDDIR)/$(MYNAME).pdf
