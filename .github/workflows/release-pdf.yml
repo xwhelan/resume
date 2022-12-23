@@ -10,16 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Make output path
-      id: files_list
-      run: |
-        mkdir -p build
     - name: Build PDF
       uses: docker://pandoc/latex:2.9
       with:
-        args: --output=build/peterwhelan-${{ github.ref_name }}.pdf peterwhelan.md
+        args: --output=peterwhelan.pdf peterwhelan.md
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "build/*.pdf"
+        artifacts: "peterwhelan.pdf"
         body: "Latest version of my resume"
