@@ -17,7 +17,7 @@ jobs:
     - name: Build PDF
       uses: docker://pandoc/latex:2.9
       with:
-        args: --output=build/peterwhelan-${{ github.ref }}.pdf peterwhelan.md
+        args: --output=build/peterwhelan-${{ github.ref_name }}.pdf peterwhelan.md
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
