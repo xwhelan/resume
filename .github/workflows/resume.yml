@@ -18,7 +18,7 @@ jobs:
       uses: awalsh128/cache-apt-pkgs-action@latest
       with:
         packages: pandoc codespell
-        version: @latest
+        version: latest
 
     - name: Build PDF
       run: make pdf
