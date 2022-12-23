@@ -10,13 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Install tooling
-      uses: awalsh128/cache-apt-pkgs-action@latest
-      with:
-        packages: pandoc codespell texlive-latex-recommended
-        version: latest
+    - name: Make output path
+      id: files_list
+      run: |
+        mkdir -p build
     - name: Build PDF
-      run: make pdf
+      uses: docker://pandoc/latex:2.9
+      with:
+        args: --output=build/peterwhelan.pdf
     - name: Create Release
       uses: actions/create-release@v1
       id: create_release
