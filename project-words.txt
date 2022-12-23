@@ -43,6 +43,7 @@ SLOC
 SNMP
 switchport
 switchports
+texlive
 wan
 WAN
 Whelan

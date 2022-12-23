@@ -17,7 +17,7 @@ jobs:
     - name: Install tooling
       uses: awalsh128/cache-apt-pkgs-action@latest
       with:
-        packages: pandoc codespell pdflatex
+        packages: pandoc codespell texlive-latex-base
         version: latest
 
     - name: Build PDF
