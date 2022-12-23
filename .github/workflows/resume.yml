@@ -1,0 +1,29 @@
+name: Resume CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install tooling
+      run: |
+        sudo apt-get update
+        sudo apt-get install pandoc codespell
+
+    - name: Build PDF
+      run: make pdf
+    
+    - name: Save PDF resume
+      uses: actions/upload-artifact@v3
+      with:
+        name: resume-pdf
+        path: build/peterwhelan.pdf
