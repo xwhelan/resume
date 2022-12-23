@@ -5,7 +5,7 @@ MYNAME = peterwhelan
 OUTPUT = $(BUILDDIR)/$(MYNAME).pdf
 SPELL_WORDS = project-words.txt
 SPELLCHECKER = codespell
-SPELLCHECK_FLAGS = -I "$(SPELL_WORDS)"
+SPELLCHECK_FLAGS = --ignore-words "$(SPELL_WORDS)"
 
 # Check for spellcheck
 ifneq ($(wildcard $(SPELLCHECKER)),"")

@@ -1,7 +1,9 @@
 Aeroscout
 Apigee
 Avaya
+awalsh
 Axispoint
+ba
 BA
 CCDA
 CCDP
@@ -31,6 +33,7 @@ pagenumbering
 Pandoc
 Pangaia
 peterwhelan
+pkgs
 pytest
 RFID
 rollouts
@@ -39,6 +42,7 @@ SLOC
 SNMP
 switchport
 switchports
+wan
 WAN
 Whelan
 WLAN
