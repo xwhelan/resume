@@ -9,4 +9,4 @@ My tooling to build a PDF version of my resume.
 - Spell checking by [CodeSpell](https://github.com/codespell-project/codespell)
 - **TODO:** Markdown linting by [markdownlint](https://github.com/markdownlint/markdownlint)
 - PDF document generation by [Pandoc](https://pandoc.org)
-- **TODO:** CI/CD by GitHub Actions
+- CI by GitHub Actions

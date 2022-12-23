@@ -8,6 +8,7 @@ CCDP
 CCNA
 CCNP
 CMDB
+codespell
 datacenter
 Denodo
 DMVPN
@@ -27,6 +28,7 @@ MPLS
 noindent
 operationalized
 pagenumbering
+Pandoc
 Pangaia
 peterwhelan
 pytest
@@ -38,4 +40,5 @@ SNMP
 switchport
 switchports
 WAN
+Whelan
 WLAN
