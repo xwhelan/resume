@@ -2,7 +2,7 @@
 
 My tooling to build a PDF version of my resume.
 
-[Latest resume - peterwhelan.pdf](https://github.com/xwhelan/resume/releases/latest/downloads/peterwhelan.pdf)
+[Latest resume - peterwhelan.pdf](https://github.com/xwhelan/resume/releases/latest/download/peterwhelan.pdf)
 
 ## Colophon
 
