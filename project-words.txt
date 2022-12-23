@@ -27,6 +27,7 @@ lmodern
 makebox
 Matplotlib
 MPLS
+ncipollo
 noindent
 operationalized
 pagenumbering
