@@ -1,9 +1,8 @@
-# LaTeX words
-# Resume words
 Aeroscout
 Apigee
 Avaya
 Axispoint
+BA
 CCDA
 CCDP
 CCNA
@@ -28,8 +27,8 @@ MPLS
 noindent
 operationalized
 pagenumbering
-Pandoc
 Pangaia
+peterwhelan
 pytest
 RFID
 rollouts
@@ -38,4 +37,5 @@ SLOC
 SNMP
 switchport
 switchports
+WAN
 WLAN
