@@ -32,6 +32,7 @@ operationalized
 pagenumbering
 Pandoc
 Pangaia
+pdflatex
 peterwhelan
 pkgs
 pytest
