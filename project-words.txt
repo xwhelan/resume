@@ -45,6 +45,7 @@ SNMP
 switchport
 switchports
 texlive
+textsc
 wan
 WAN
 Whelan

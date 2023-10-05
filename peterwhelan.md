@@ -1,5 +1,5 @@
 ---
-geometry: margin=1.25in
+geometry: margin=1.125in
 fontfamily: lmodern
 ---
 <!-- markdownlint-disable-next-line MD041 -->
@@ -7,34 +7,38 @@ fontfamily: lmodern
 
 # Peter Whelan
 
-`xwhelan@gmail.com` | 914.646.8268 | Hartsdale, NY
-\newline\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 *Experienced infrastructure engineer and manager, delivering and supporting
-resilient, scalable, high performance distributed applications*
+resilient, scalable, high performance distributed applications, processes, and teams*
 
 ## Experience
 
 ### July 2021--Present: Director, Cloud Site Reliability Engineer; Prudential Financial
 
-Support line of business applications shared cloud infrastructure resources
-primarily in AWS, with niche use cases in GCP and Azure
+Key contributor to improving service delivery process, cloud observability, Central
+Express adoption, and improving infrastructure software engineering practices in Cloud
 
+- Led SRE Enablement Team through PI2023.3 to successfully deliver all seven of seven
+  features on time and with only 3% carryover into PI2023.4
 - Documented and standardized all operational work in ServiceNow, created
   request validator services in Python running on AWS Lambda. Supporting work
   streams of over 2300 operational requests per year (11th highest volume in
   among all enterprise IT product teams), with 50% year over year
   growth due to enterprise cloud adoption. Provided metrics on self-service
   role adoption from Cloudwatch logs in Splunk
+- Extended validator service to execute recurring tasks on schedule using Jenkins
+  Enterprise task and Apigee-fronted Jenkins API, while automatically creating,
+  updating, and closing out changes
 - Created standard CI/CD development practices to build reusable pip packages,
   using enterprise Bitbucket, Jenkins, and jFrog Artifactory. Reduced package
   build time and shifted left to local development environment by using Docker
   multi-stage builds to run testing and deployment tasks
 - Extended enterprise cloud Python development practices to include packaging,
-  automated testing, type hinting, and schema validation
-- Identified bottlenecks, failure conditions, and throughput limits in legacy
-  IaC deployment processes, due to use of Eventbridge rules for scheduling.
-  Implemented Eventbridge Scheduler and documented migration path
+  automated testing, type hinting, and schema validation, publishing more than (10)
+  packages to Artifactory for use by anyone in Prudential
+- Created Python client SDK and automated testing framework for ServiceNow Generic
+  Incident and Change API
 - Developed key microservices for winning entry in quarterly enterprise
   hackathon, using Docker, Python FastAPI, and AWS DynamoDB, which is being
   operationalized as the enterprise service status observability platform
@@ -113,5 +117,15 @@ enterprise infrastructure observability and ITSM analytics
 ## Education
 
 BA Political Science, Christendom College
+
+\noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+
+### Colophon
+
+- Typeface: Computer Modern
+- Typesetting: \LaTeX, Markdown, pandoc
+- Build System: GNU Make
+- CI/CD: GitHub Actions
+- Source Code Repository: <https://github.com/xwhelan/resume>
 
 <!-- markdownlint-disable-file MD026 -->
