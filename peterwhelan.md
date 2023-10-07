@@ -1,5 +1,5 @@
 ---
-geometry: margin=1.125in
+geometry: margin=1.0in
 fontfamily: lmodern
 ---
 <!-- markdownlint-disable-next-line MD041 -->
@@ -48,6 +48,10 @@ Express adoption, and improving infrastructure software engineering practices in
 Network infrastructure monitoring, analytics, and automation; then for
 enterprise infrastructure observability and ITSM analytics
 
+- Refactored Perl CGI script generating Proxy Autoconfig (PAC) files for all
+  web browsers in company. Updated Perl application included optimizations for improved
+  proxy performance, modular design, unit testing and additional testing scripts. Deployed
+  successfully by successor teams in 2023.
 - Migrated legacy server monitoring team to self-service
   automation via ServiceNow Service Catalog and Tableau reporting,
   saving an average of 20 person-hours of manual labor per week
