@@ -9,8 +9,17 @@ fontfamily: lmodern
 
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
-*Experienced infrastructure engineer and manager, delivering and supporting
-resilient, scalable, high performance distributed applications, processes, and teams*
+Cloud infrastructure leader with 20+ years experience in building and supporting high
+performance, mission critical applications, especially finance and healthcare, using
+APIs, and automation to deliver demonstrable business value. Fosters high performing
+cross functional teams who make data driven decisions and are empowered to build and own
+innovative solutions.
+
+Specialties: Infrastructure as Code • Application instrumentation and observability •
+REST API design, development, and integration • CI/CD for containerized applications
+and software reuse • Cross functional problem management and continuing improvement •
+Agile • IT Service Management and automation with ServiceNow • Agile application
+development and SCM
 
 ## Experience
 
@@ -19,8 +28,8 @@ resilient, scalable, high performance distributed applications, processes, and t
 Key contributor to improving service delivery process, cloud observability, Central
 Express adoption, and improving infrastructure software engineering practices in Cloud
 
-- Led SRE Enablement Team through PI2023.3 to successfully deliver all seven of seven
-  features on time and with only 3% carryover into PI2023.4
+- Reorganized and led SRE Enablement Agile team through quarterly Program Increment
+  with 100% feature completion for first time in 2+ year agile transformation
 - Documented and standardized all operational work in ServiceNow, created
   request validator services in Python running on AWS Lambda. Supporting work
   streams of over 2300 operational requests per year (11th highest volume in
@@ -124,7 +133,7 @@ BA Political Science, Christendom College
 
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
-### Colophon
+<!-- ### Colophon
 
 - Typeface: Computer Modern
 - Typesetting: \LaTeX, Markdown, pandoc
