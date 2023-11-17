@@ -12,6 +12,7 @@ CCNA
 CCNP
 CMDB
 codespell
+columnbreak
 datacenter
 Denodo
 DMVPN
@@ -25,9 +26,12 @@ Ironport
 ITSM
 linewidth
 lmodern
+Loukides
 makebox
 Matplotlib
 MPLS
+multicol
+multicols
 ncipollo
 noindent
 operationalized
@@ -47,6 +51,7 @@ switchport
 switchports
 texlive
 textsc
+usepackage
 wan
 WAN
 Whelan

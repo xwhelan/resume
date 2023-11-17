@@ -9,24 +9,28 @@ fontfamily: lmodern
 
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
-Cloud infrastructure leader with 20+ years experience in building and supporting high
-performance, mission critical applications, especially finance and healthcare, using
-APIs, and automation to deliver demonstrable business value. Fosters high performing
-cross functional teams who make data driven decisions and are empowered to build and own
-innovative solutions.
+Cloud engineering technical leader with 20+ years experience in building and supporting
+high performance, mission critical applications in verticals including finance and
+healthcare. Committed to improving observability and automation to continuously improve
+resilient systems. Fosters high performing cross functional teams who make data driven
+decisions and are empowered to innovate, build, and care for innovative solutions.
 
-Specialties: Infrastructure as Code • Application instrumentation and observability •
-REST API design, development, and integration • CI/CD for containerized applications
-and software reuse • Cross functional problem management and continuing improvement •
-Agile • IT Service Management and automation with ServiceNow • Agile application
-development and SCM
+Specialties: Infrastructure as Code • Application logging, telemetry, and observability
+• REST API design, development, and integration • CI/CD for containerized application
+building, testing, and execution • Cross functional problem management and continuing
+improvement • IT Service Management and automation with ServiceNow • Agile and Scrum
+with Jira • Python package and large scale application development • Application
+performance packet analysis • Command line tooling, scripting, and DevEx • Network
+architecture, management, and automation • IP address management and IPv6 migration
 
 ## Experience
 
 ### July 2021--Present: Director, Cloud Site Reliability Engineer; Prudential Financial
 
 Key contributor to improving service delivery process, cloud observability, Central
-Express adoption, and improving infrastructure software engineering practices in Cloud
+Express adoption, and improving infrastructure software engineering practices in Cloud.
+Supported infrastructure for over 2,000 business applications across over (400) AWS
+accounts.
 
 - Reorganized and led SRE Enablement Agile team through quarterly Program Increment
   with 100% feature completion for first time in 2+ year agile transformation
@@ -43,11 +47,9 @@ Express adoption, and improving infrastructure software engineering practices in
   using enterprise Bitbucket, Jenkins, and jFrog Artifactory. Reduced package
   build time and shifted left to local development environment by using Docker
   multi-stage builds to run testing and deployment tasks
-- Extended enterprise cloud Python development practices to include packaging,
+- Standardized cloud Python development practices to include packaging,
   automated testing, type hinting, and schema validation, publishing more than (10)
   packages to Artifactory for use by anyone in Prudential
-- Created Python client SDK and automated testing framework for ServiceNow Generic
-  Incident and Change API
 - Developed key microservices for winning entry in quarterly enterprise
   hackathon, using Docker, Python FastAPI, and AWS DynamoDB, which is being
   operationalized as the enterprise service status observability platform
@@ -69,15 +71,9 @@ enterprise infrastructure observability and ITSM analytics
   ITSM records, and presenting in responsive Tableau dashboards
 - Developed an enterprise specific architecture for automated fulfillment of
   self service requests, making use of enterprise platforms where available
-  and developing the glue to orchestrate them, including:
-  - Datacenter connectivity self service workflow in ServiceNow and
-    integration with Ansible Tower for orchestrating infrastructure
-    configuration on switches and in Infoblox
-  - Migration from legacy in house IP address database to Infoblox
-  - Self service diagnostics for remote access users, with
-    ServiceNow self service workflow, Apigee API gateway, and custom
-    diagnostic logic microservice using Python Flask framework
-- Created operations focused network and telephony dashboards using on hand
+  to create and integrate all components of end to end solution
+- Migrated  from legacy in house IP address database to Infoblox
+- Crafted operations focused network and telephony dashboards using on hand
   platforms and resources. My team came together to create a set of impactful
   reports in Tableau, "living off the land" by using readily available,
   legacy on premise services during pandemic and corporate reorganization
@@ -133,7 +129,7 @@ BA Political Science, Christendom College
 
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
-<!-- ### Colophon
+### Colophon
 
 - Typeface: Computer Modern
 - Typesetting: \LaTeX, Markdown, pandoc
