@@ -7,21 +7,15 @@ fontfamily: lmodern
 
 # Peter Whelan
 
+34 Lakeview Ave, Hartsdale, NY 10530 • +1 914 646 8268 • <xwhelan@gmail.com>
+
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 Cloud engineering technical leader with 20+ years experience in building and supporting
 high performance, mission critical applications in verticals including finance and
-healthcare. Committed to improving observability and automation to continuously improve
-resilient systems. Fosters high performing cross functional teams who make data driven
-decisions and are empowered to innovate, build, and care for innovative solutions.
-
-Specialties: Infrastructure as Code • Application logging, telemetry, and observability
-• REST API design, development, and integration • CI/CD for containerized application
-building, testing, and execution • Cross functional problem management and continuing
-improvement • IT Service Management and automation with ServiceNow • Agile and Scrum
-with Jira • Python package and large scale application development • Application
-performance packet analysis • Command line tooling, scripting, and DevEx • Network
-architecture, management, and automation • IP address management and IPv6 migration
+healthcare. Committed to improving resilience through observability and automation.
+Fosters high performing cross functional teams who make data driven
+decisions and can innovate and execute successfully.
 
 ## Experience
 
@@ -48,13 +42,14 @@ accounts.
   build time and shifted left to local development environment by using Docker
   multi-stage builds to run testing and deployment tasks
 - Standardized cloud Python development practices to include packaging,
-  automated testing, type hinting, and schema validation, publishing more than (10)
-  packages to Artifactory for use by anyone in Prudential
+  automated testing, type hinting, and schema validation, improved guidance on
+  documentation and code review, publishing more than (10)
+  packages to Artifactory for use by anyone in enterprise
 - Developed key microservices for winning entry in quarterly enterprise
   hackathon, using Docker, Python FastAPI, and AWS DynamoDB, which is being
   operationalized as the enterprise service status observability platform
 
-### July 2019--July 2021: Director, Team Lead; Prudential Financial
+### July 2019 -- July 2021: Director, Team Lead; Prudential Financial
 
 Network infrastructure monitoring, analytics, and automation; then for
 enterprise infrastructure observability and ITSM analytics
@@ -70,18 +65,18 @@ enterprise infrastructure observability and ITSM analytics
   application owners and stakeholders, integrating Splunk metrics and ServiceNow
   ITSM records, and presenting in responsive Tableau dashboards
 - Developed an enterprise specific architecture for automated fulfillment of
-  self service requests, making use of enterprise platforms where available
-  to create and integrate all components of end to end solution
+  self service requests, integrating platforms including ServiceNow, VMWare vSphere,
+  APC StruxureWare, and Splunk through Ansible
 - Migrated  from legacy in house IP address database to Infoblox
 - Crafted operations focused network and telephony dashboards using on hand
   platforms and resources. My team came together to create a set of impactful
-  reports in Tableau, "living off the land" by using readily available,
-  legacy on premise services during pandemic and corporate reorganization
+  reports in Tableau by using readily available, legacy on premise services through
+  pandemic and corporate reorganization
 - Wrote custom SNMP poller in Python to address scaling issues in enterprise
   network management platforms, reducing time to query all devices from 10+
   minutes to under 30 seconds for >1000 nodes
 
-### 2013--July 2019: Solutions Architect; Pangaia Partners, LLC
+### April 2013 -- July 2019: Solutions Architect; Pangaia Partners, LLC
 
 - Created software tools for project teams and client infrastructure staff
   using Python for network security automation. Reduced time to audit and
@@ -99,7 +94,7 @@ enterprise infrastructure observability and ITSM analytics
 - Piloted and implemented emerging IoT platforms like PoE smart lighting and
   WiFi/BLE tracking
 
-### 2008--2013: Senior Mobility Engineer; Axispoint, Inc.
+### September 2008 -- March 2013: Senior Mobility Engineer; Axispoint, Inc.
 
 - Implemented Stanley Healthcare Aeroscout Active RFID to track medical
   equipment and prescription medicine in hospital environments
@@ -110,7 +105,7 @@ enterprise infrastructure observability and ITSM analytics
 - Designed and implemented wired and wireless NAC for a city public school
   system with 17 facilities, over 1,000 employees, and over 10,500 students
 
-### 2002--2008 : Senior Support Engineer; ShoreGroup, Inc.
+### July 2002 -- August 2008 : Senior Support Engineer; ShoreGroup, Inc.
 
 - Led the Converged Network Team in managed service NOC, grew from two to ten
   engineers
@@ -123,18 +118,28 @@ enterprise infrastructure observability and ITSM analytics
   Server, MPLS WAN, customer remote access VMware/Remote Desktop environment,
   DMVPN for remote NOC engineers
 
+## Skills
+
+Infrastructure Engineering • Application logging, telemetry, and observability • REST
+API design, development, and integration • CI/CD for containerized application building,
+testing, and execution • Cross functional problem management and continuing improvement
+• IT Service Management and automation with ServiceNow • Agile SDLC with Jira •
+Infrastructure as Code • Python package development • Software Engineering and large
+scale application development • Application performance packet analysis • Command line
+tooling, scripting, and DevEx • Network architecture, management, and automation • IP
+address management and IPv6 migration • Linux & BSD systems engineering and
+containerization
+
 ## Education
 
 BA Political Science, Christendom College
 
+<!--
 \noindent\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
 
 ### Colophon
 
-- Typeface: Computer Modern
-- Typesetting: \LaTeX, Markdown, pandoc
-- Build System: GNU Make
-- CI/CD: GitHub Actions
-- Source Code Repository: <https://github.com/xwhelan/resume>
+Typeface: Computer Modern • Typesetting: \LaTeX, Markdown, pandoc • Build System: GNU
+Make • CI/CD: GitHub Actions • Source Code Repository: <https://github.com/xwhelan/resume>
 
 <!-- markdownlint-disable-file MD026 -->

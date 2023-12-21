@@ -24,6 +24,7 @@ Hartsdale
 Infoblox
 Ironport
 ITSM
+Lakeview
 linewidth
 lmodern
 Loukides
@@ -45,8 +46,10 @@ pytest
 RFID
 rollouts
 RTLS
+SDLC
 SLOC
 SNMP
+StruxureWare
 switchport
 switchports
 texlive
